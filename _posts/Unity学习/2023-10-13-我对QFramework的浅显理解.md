@@ -4,6 +4,7 @@ date: 2023-10-13 11:04:00 +0800
 categories: [Unity学习]
 tags: [Unity]
 ---
+
 在使用并学习了一段时间QFramework后，有了一定的认知，这里分享一些我自己目前对QFramework的一些认识和总结（不一定正确，欢迎指正）。
 
 QFramework是一套分层的架构，何为分层？在我早期学习并制作Unity项目的时候，尝试使用`Manager Of Managers`的思路架构游戏程序，即一个Manager管理所有其他的Manager，每个Manager分别负责游戏各个模块的逻辑，例如SaveManager，InventoryManager，DialogueManger，UIManager，SceneManager，EventManager等，并将Manager设计为单例模式，将表现，逻辑和数据都写在里面，然后使用一个BaseManager统一管理这些Manager，我与团队的其他成员各自负责每个Manager的逻辑。最开始用来效果似乎还不错，但到项目越写越复杂的时候，会发现项目越来越难以维护。因为所有Manager几乎都在相互引用，在脑海里想像会让人感觉是在AnimatorController里面许多个动画相互连接的“蜘蛛网困境”，更要命的是，你有时候要实现自己所负责的Manager的一个功能时，需要改动其他人所负责的代码，因此在git合并时也常常造成冲突。
