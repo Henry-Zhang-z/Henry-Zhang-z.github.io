@@ -18,7 +18,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 章行 # the main title
+title: Yuan # the main title
 
 tagline: 热爱游戏的游戏开发者，分享游戏设计，学习记录，技术文章，以及一些杂谈 # it will display as the sub-title
 
@@ -26,23 +26,19 @@ description: >- # used by seo meta and the atom feed
   热爱游戏的游戏开发者，分享游戏设计，学习记录，技术文章，以及一些杂谈
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://henry-zhang-z.github.io"
+url: "https://yuan-zzzz.github.io"
 
 github:
-  username: henry-zhang-z # change to your github username
-
-twitter:
-  username: twitter_username # change to your twitter username
+  username: Yuan-Zzzz # change to your github username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 章行
+  name: Yuan
   email: 1729726526@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/henry-zhang-z # change to your github homepage
+    - https://github.com/Yuan-Zzzz # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
