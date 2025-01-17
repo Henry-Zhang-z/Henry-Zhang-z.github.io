@@ -18,7 +18,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 章行 # the main title
+title: Yuan # the main title
 
 tagline: 热爱游戏的游戏开发者，分享游戏设计，学习记录，技术文章，以及一些杂谈 # it will display as the sub-title
 
